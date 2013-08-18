@@ -1,1 +1,24 @@
-CFD Mesh Tool
+CFD Mesh Tool.
+
+"Treat your walls right."
+
+
+- This tool estimates first cell height to get correct y+ value based on fluid type and flow properties.
+
+- Calculation is available for:
+	- Air and water flows.
+	- Internal or external flows.
+
+- Density and viscosity of the fluids are calculated for user-defined operating conditions (pressure and temperature).
+	- This doesn't significantly affect the first cell height estimate.
+	- Altough, it is useful for getting your basic fluid properties during case setup.
+
+- Estimate of surface mesh element size is given to meet user-defined aspect ratio limit of the first cell.
+	- Works for triangular and quad surface meshes.
+
+
+Let me know if you have any questions about the tool or near wall treatment in CFD simulations in general.
+
+This is my first C++ app. I will welcome any feedback and suggestions.
+
+RS
